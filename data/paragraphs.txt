@@ -1,0 +1,7 @@
+The quick brown fox jumps over the lazy dog.|Standard|Easy
+Java is a class-based, object-oriented programming language designed to have as few implementation dependencies as possible.|Coding|Medium
+Object-oriented programming utilizes classes and objects to structure applications for high reuse and modularity.|Coding|Easy
+Multithreading in Java allows multiple threads to run concurrently to achieve maximum CPU utilization.|Coding|Hard
+Swing is a GUI widget toolkit for Java which provides a rich set of buttons, lists, tables, and text inputs.|Coding|Medium
+To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer the slings and arrows of outrageous fortune.|Literature|Hard
+All that glitters is not gold; often have you heard that told. Many a man his life hath sold but my outside to behold.|Literature|Medium

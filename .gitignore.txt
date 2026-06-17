@@ -1,0 +1,8 @@
+bin/
+out/
+*.class
+
+data/database.properties
+
+.idea/
+.vscode/

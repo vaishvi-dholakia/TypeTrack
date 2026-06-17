@@ -145,21 +145,6 @@ The application automatically provisions an administrator account during first s
 * Admin Management Portal
 * Modern Desktop UI
 
----
-
-## 📸 Screenshots
-
-Added screenshots of:
-
-* Login Screen
-* Dashboard
-* Typing Test Interface
-* WPM Trend Graph
-* Leaderboard
-* Admin Panel
-* History & Reports
-
----
 
 ## 📄 License
 

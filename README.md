@@ -1,74 +1,76 @@
-# TypeTrack ⌨️📊
+# TypeTrack ⌨️📈
 
-A feature-rich Java desktop application for measuring, analyzing, and improving typing performance. TypeTrack combines real-time typing analytics, user authentication, performance tracking, gamification, and administrative controls in a modern Swing-based interface backed by MySQL.
+TypeTrack is a full-featured Java desktop application designed to help users measure, analyze, and improve their typing performance. Built with Java Swing and MySQL, it provides real-time typing analytics, performance tracking, gamification features, secure authentication, and a comprehensive administration system.
 
 ---
 
 ## 🚀 Features
 
-### Typing Engine
+### ⌨️ Typing Engine
 
-* Real-time WPM, Accuracy, and Mistake tracking
-* Automatic test timer
+* Real-time calculation of WPM, Accuracy, and Mistakes
+* Automatic test timer with start/stop detection
 * Dynamic keystroke validation
-* Detailed post-test analytics
+* Detailed post-test performance analysis
 
-### User Management
+### 🔐 User Authentication
 
 * Secure user registration and login
 * SHA-256 password hashing
-* Strong password enforcement
+* Strong password policy enforcement
 * Security question–based password recovery
 
-### Analytics & Insights
+### 📊 Analytics & Insights
 
-* Personal dashboard with performance statistics
+* Personal performance dashboard
 * WPM progression charts
 * Historical performance tracking
-* Average and best score calculations
+* Personal best and average statistics
 
-### Gamification
+### 🏆 Gamification
 
-* Achievement & badge system
-* Personal milestones and rewards
+* Achievement and badge system
+* Performance milestones and rewards
 * Global leaderboard rankings
 
-### History & Reporting
+### 📁 History & Reports
 
-* Complete test history
-* Filtering and sorting options
+* Complete test history management
+* Sorting and filtering capabilities
 * Export reports in CSV, TXT, and PDF formats
 
-### Admin Dashboard
+### 👨‍💼 Admin Dashboard
 
 * Role-Based Access Control (RBAC)
-* User management
+* User management and monitoring
 * Password reset controls
-* Paragraph management
-* System-wide analytics
+* Paragraph management system
+* System-wide statistics and analytics
 
-### UI & Experience
+### 🎨 User Interface
 
-* Modern Java Swing interface
-* Dark / Light Theme support
+* Modern Java Swing UI
+* Dark Mode and Light Mode support
 * Interactive charts and visualizations
-* Responsive dashboard layout
+* Responsive dashboard experience
 
 ---
 
 ## 🛠️ Tech Stack
 
-* Java (Swing)
-* MySQL
-* JDBC
-* Graphics2D
-* SHA-256 Encryption
+| Technology | Purpose                        |
+| ---------- | ------------------------------ |
+| Java Swing | Desktop GUI                    |
+| MySQL      | Database Management            |
+| JDBC       | Database Connectivity          |
+| Graphics2D | Custom Charts & Visualizations |
+| SHA-256    | Password Security              |
 
 ---
 
-## ☁️ Cloud Ready
+## ☁️ Cloud Deployment
 
-TypeTrack supports deployment with cloud-hosted MySQL databases such as:
+TypeTrack supports both local and cloud-hosted MySQL databases, including:
 
 * Railway
 * Aiven
@@ -84,16 +86,16 @@ data/database.properties
 
 ---
 
-## 📦 Installation
+## 📦 Installation & Setup
 
-### Clone Repository
+### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/TypeTrack.git
+git clone https://github.com/your-username/TypeTrack.git
 cd TypeTrack
 ```
 
-### Configure Database
+### 2. Configure Database
 
 Create:
 
@@ -104,18 +106,18 @@ data/database.properties
 Example:
 
 ```properties
-db.url=YOUR_DATABASE_URL
-db.user=YOUR_DATABASE_USER
-db.password=YOUR_DATABASE_PASSWORD
+db.url      = jdbc:mysql://localhost:3306/your_database_name
+db.user     = YOUR_USERNAME_HERE
+db.password = YOUR_DATABASE_PASSWORD_HERE
 ```
 
-### Compile
+### 3. Compile the Project
 
 ```bash
 javac -d bin -cp "lib/*" @sources.txt
 ```
 
-### Run
+### 4. Run the Application
 
 ```bash
 java -cp "bin;lib/*" com.typetrack.Main
@@ -125,27 +127,40 @@ java -cp "bin;lib/*" com.typetrack.Main
 
 ## 👑 Default Administrator Account
 
-The application automatically provisions an administrator account during first startup.
+A default administrator account is automatically created during first startup.
 
 | Username | Password  |
 | -------- | --------- |
 | admin    | Admin@123 |
 
-> Change the default administrator password before production deployment.
+> ⚠️ Change the default administrator password before production deployment.
 
 ---
 
-## 📊 Project Highlights
+## 📸 Screenshots
+
+### Login Page
+### Dashboard
+### Typing Test
+### WPM Trend Graph
+### Leaderboard
+### Admin Dashboard
+### History & Reports
+
+---
+
+## ⭐ Project Highlights
 
 * Secure Authentication System
 * Cloud Database Integration
 * Interactive Performance Dashboard
 * Achievement & Leaderboard System
-* Exportable Reports (CSV / TXT / PDF)
-* Admin Management Portal
-* Modern Desktop UI
+* Exportable Reports (CSV, TXT, PDF)
+* Administrative Management Portal
+* Modern Desktop User Experience
 
+---
 
 ## 📄 License
 
-This project is intended for educational and portfolio purposes.
+This project is intended for educational, learning, and portfolio purposes.

@@ -106,9 +106,9 @@ data/database.properties
 Example:
 
 ```properties
-db.url=jdbc:mysql://localhost:3306/your_database_name
-db.user=YOUR_USERNAME_HERE
-db.password=YOUR_DATABASE_PASSWORD_HERE
+db.url      = jdbc:mysql://localhost:3306/your_database_name
+db.user     = YOUR_USERNAME_HERE
+db.password = YOUR_DATABASE_PASSWORD_HERE
 ```
 
 ### 3. Compile the Project
